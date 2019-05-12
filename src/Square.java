@@ -4,5 +4,11 @@ public class Square {
 Square(double bok){
     a = bok;
 }
+
+    double squareArea(){
+        double x = a * a;
+        return x;
+    }
+
 }
 

@@ -9,10 +9,10 @@ public class Test {
 
         ShapeCalculator shapeCalculator = new ShapeCalculator();
 
-        double sA = shapeCalculator.squareArea(square);
-        double cA = shapeCalculator.circleArea(circle);
-        double tP = shapeCalculator.trianglePerimeter(triangle);
-        double rP = shapeCalculator.rectPerimeter(rectangle);
+        double sA = square.squareArea();
+        double cA = circle.circleArea();
+        double tP = triangle.trianglePerimeter();
+        double rP = rectangle.rectPerimeter();
 
         System.out.println("Pole kwadratu: " + sA);
         System.out.println("Pole koła: " + cA);

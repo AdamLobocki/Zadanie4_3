@@ -5,4 +5,8 @@ public class Triangle {
         b = bokB;
         c = bokC;
     }
+    double trianglePerimeter(){
+        double x = a + b + c;
+        return x;
+    }
 }
